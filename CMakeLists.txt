@@ -14,4 +14,4 @@ MESSAGE(STATUS "Current built type: ${CMAKE_BUILD_TYPE}")
 MESSAGE(STATUS "Current build type flags: ${CMAKE_CXX_FLAGS_${CMAKE_BUILD_TYPE}}")
 
 add_executable( ${PROJECT_NAME} ${SRCS} )
-target_link_libraries( ${PROJECT_NAME} ${OpenCV_LIBS} ${Boost_LIBRARIES})
+target_link_libraries( ${PROJECT_NAME} ${OpenCV_LIBS})
